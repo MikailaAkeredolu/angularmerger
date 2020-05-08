@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FakeComponent } from './fake/fake.component';
+import { AddrecipeComponent } from './addrecipe/addrecipe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FakeComponent
+    FakeComponent,
+    AddrecipeComponent
   ],
   imports: [
     BrowserModule,
